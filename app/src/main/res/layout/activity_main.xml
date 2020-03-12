@@ -15,16 +15,17 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginRight="20dp"
-        app:srcCompat="@drawable/index" />
+        app:srcCompat="@drawable/index"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/tvPrompt"
         android:layout_width="match_parent"
-        android:layout_height="154dp"
+        android:layout_height="97dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="30dp"
-        android:text="TextView"
+        android:text="@string/count_the_number_of_chirps_in_25_seconds_i_will_give_you_the_approx_temperature_in_degree_celsius"
         android:textColor="#547DCF" />
 
     <EditText
@@ -36,8 +37,11 @@
         android:layout_marginRight="30dp"
         android:ems="10"
         android:gravity="center_horizontal"
-        android:hint="Enter number of chirps here"
-        android:inputType="textPersonName" />
+        android:hint="@string/enter_chirps_count_here"
+        android:inputType="number"
+        android:textColor="#547DCF"
+        android:textColorHint="#697FFB"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnSubmit"
@@ -47,7 +51,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
         android:backgroundTint="#1976D2"
-        android:text="Submit"
+        android:text="@string/submit"
         android:textColor="#F1EAEA" />
 
     <TextView
@@ -57,6 +61,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="30dp"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textColor="#547DCF" />
+
 </LinearLayout>

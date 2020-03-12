@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Chirps</string>
+    <string name="submit">Submit</string>
+    <string name="count_the_number_of_chirps_in_25_seconds_i_will_give_you_the_approx_temperature_in_degree_celsius">Count the number of chirps in 25 seconds.I will give you the approx temperature in degree celsius</string>
+    <string name="textview">TextView</string>
+    <string name="enter_chirps_count_here">enter chirps count here</string>
+    <string name="todo">TODO</string>
+    <string name="newline">\n</string>
 </resources>
